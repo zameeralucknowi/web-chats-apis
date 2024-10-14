@@ -14,7 +14,7 @@ dotenv.config();
 app.use(express.json())  // to  parse the inccoming json data from client
 app.use(cookieParser()); // to set ccookis on th serveer anddd seend it 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://web-chat-0xdb.onrender.com",
     credentials:true
 }))    // diffrent omains can mak rquest to seerver
 
